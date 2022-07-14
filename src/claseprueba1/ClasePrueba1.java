@@ -5,6 +5,8 @@
  */
 package claseprueba1;
 
+import conexion.ConsultasBD;
+
 /**
  *
  * @author HP
@@ -16,6 +18,7 @@ public class ClasePrueba1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ConsultasBD cb = new ConsultasBD();
     }
     
 }
