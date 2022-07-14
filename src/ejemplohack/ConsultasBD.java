@@ -9,14 +9,7 @@ package ejemplohack;
  *
  * @author DELL
  */
-public class EjemploHack {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        ConsultasBD cb = new ConsultasBD();
-    }
-    
+public class ConsultasBD {
+    MySQL baseDatos = new MySQL().conectar("localhost", "reto bbva",
+ "root", "");
 }
